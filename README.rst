@@ -30,6 +30,7 @@ If you make an HTTP request, it will automatically redirect::
     Strict-Transport-Security: max-age=31536000
     Connection: keep-alive
 
+If you want to leave SSL off in test/development environments, set `USE_SSL` to `False` in `app.config`.
 
 HTTP Strict Transport Security
 ------------------------------
@@ -62,8 +63,8 @@ Install
 Installation is simple too::
 
     $ pip install Flask-SSLify
-    
-    
+
+
 Security consideration using basic auth
 ---------------------------------------
 
